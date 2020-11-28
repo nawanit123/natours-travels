@@ -6,7 +6,7 @@ body {
   color: $color-grey-dark;
   padding: 3rem;
 }
-.heading-primary {
+.heading__primary {
   color: $color-white;
   text-transform: uppercase;
   margin-bottom: 6rem;
@@ -30,7 +30,7 @@ body {
   }
 }
 
-.heading-secondary {
+.heading__secondary {
   display: inline-block;
   font-size: 3.5rem;
   text-transform: uppercase;
@@ -52,7 +52,7 @@ body {
   }
 }
 
-.heading-tertiary {
+.heading__tertiary {
   font-size: $default-font-size;
   font-weight: 700rem;
   text-transform: uppercase;

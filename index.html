@@ -60,9 +60,9 @@
         <img src="img/logo-white.png" alt="logo" class="header__logo" />
       </div>
       <div class="header__text-box">
-        <h1 class="heading-primary">
-          <span class="heading-primary--main">Outdoors</span>
-          <span class="heading-primary--sub">is where life happens</span>
+        <h1 class="heading__primary">
+          <span class="heading__primary--main">Outdoors</span>
+          <span class="heading__primary--sub">is where life happens</span>
         </h1>
         <a href="#" class="btn btn--white btn--animate">Discover our Tours</a>
       </div>
@@ -71,13 +71,13 @@
     <main>
       <section class="section-about">
         <div class="u-center-text u-margin-bottom-large">
-          <h2 class="heading-secondary">
+          <h2 class="heading__secondary">
             Exciting Tours for adventurous people.
           </h2>
         </div>
         <div class="row">
           <div class="col-1-of-2">
-            <h3 class="heading-tertiary u-margin-bottom-small">
+            <h3 class="heading__tertiary u-margin-bottom-small">
               You're going to fall in love with the nature
             </h3>
             <p class="paragraph">
@@ -86,7 +86,7 @@
               eos, odio natus quaerat doloribus culpa temporibus ea eum autem
               delectus.
             </p>
-            <h3 class="heading-tertiary u-margin-bottom-small">
+            <h3 class="heading__tertiary u-margin-bottom-small">
               Live Adventures like you have never lived before
             </h3>
             <p class="paragraph">
@@ -121,7 +121,7 @@
           <div class="col-1-of-4">
             <div class="feature-box">
               <i class="feature-box__icon icon-basic-world"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">
+              <h3 class="heading__tertiary u-margin-bottom-small">
                 Explore the world
               </h3>
               <p class="feature-box__text">
@@ -133,7 +133,7 @@
           <div class="col-1-of-4">
             <div class="feature-box">
               <i class="feature-box__icon icon-basic-compass"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">
+              <h3 class="heading__tertiary u-margin-bottom-small">
                 Meet Nature
               </h3>
               <p class="feature-box__text">
@@ -145,7 +145,7 @@
           <div class="col-1-of-4">
             <div class="feature-box">
               <i class="feature-box__icon icon-basic-map"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">
+              <h3 class="heading__tertiary u-margin-bottom-small">
                 Find Your Way
               </h3>
               <p class="feature-box__text">
@@ -157,7 +157,7 @@
           <div class="col-1-of-4">
             <div class="feature-box">
               <i class="feature-box__icon icon-basic-heart"></i>
-              <h3 class="heading-tertiary u-margin-bottom-small">
+              <h3 class="heading__tertiary u-margin-bottom-small">
                 Live a Healthier Life
               </h3>
               <p class="feature-box__text">
@@ -169,9 +169,9 @@
         </div>
       </section>
 
-      <section class="section-tours">
+      <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-large">
-          <h2 class="heading-secondary">Most popular tours</h2>
+          <h2 class="heading__secondary">Most popular tours</h2>
         </div>
         <div class="row">
           <div class="col-1-of-3">
@@ -199,7 +199,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">₹2970</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book Now!</a>
+                  <a href="#popup" class="btn btn--white">Book Now!</a>
                 </div>
               </div>
             </div>
@@ -229,7 +229,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">₹4999</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book Now!</a>
+                  <a href="#popup" class="btn btn--white">Book Now!</a>
                 </div>
               </div>
             </div>
@@ -259,7 +259,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">₹8999</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book Now!</a>
+                  <a href="#popup" class="btn btn--white">Book Now!</a>
                 </div>
               </div>
             </div>
@@ -280,7 +280,7 @@
           </video>
         </div>
         <div class="u-center-text u-margin-bottom-large">
-          <h2 class="heading-secondary">We make people genuinely happy</h2>
+          <h2 class="heading__secondary">We make people genuinely happy</h2>
         </div>
         <div class="row">
           <div class="story">
@@ -293,7 +293,7 @@
               <figcaption class="story__caption">Mary Smith</figcaption>
             </figure>
             <div class="story__text">
-              <h3 class="heading-tertiary u-margin-bottom-small">
+              <h3 class="heading__tertiary u-margin-bottom-small">
                 I had the best week ever with my family
               </h3>
               <p>
@@ -317,7 +317,7 @@
               <figcaption class="story__caption">Jack Wilson</figcaption>
             </figure>
             <div class="story__text">
-              <h3 class="heading-tertiary u-margin-bottom-small">
+              <h3 class="heading__tertiary u-margin-bottom-small">
                 My life is completely different now
               </h3>
               <p>
@@ -340,7 +340,7 @@
             <div class="book__form">
               <form action="#" class="form">
                 <div class="u-margin-bottom-medium">
-                  <h2 class="heading-secondary">Start Booking Now</h2>
+                  <h2 class="heading__secondary">Start Booking Now</h2>
                 </div>
                 <div class="form__group">
                   <input
@@ -437,6 +437,38 @@
         </div>
       </div>
     </footer>
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__image" />
+          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__image" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading__secondary u-margin-bottom-small">
+            Start booking now
+          </h2>
+          <h3 class="heading__tertiary u-margin-bottom-small">
+            Important &ndash; Please read this terms before booking
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est
+            nobis quo? Deserunt blanditiis consequuntur esse repellat quos illo
+            ducimus earum, nemo necessitatibus saepe? Placeat expedita eaque
+            alias animi quaerat. Reprehenderit numquam quibusdam officia, maxime
+            id quasi quia voluptatem ipsa vel quam repellendus adipisci
+            distinctio repudiandae suscipit delectus ipsum inventore maiores
+            sequi dolores quisquam modi dolorem non officiis? Esse, a. Doloribus
+            voluptatibus neque labore? Eligendi quasi sed aspernatur et
+            praesentium exercitationem id, mollitia, soluta culpa sit omnis odit
+            autem enim quis. Eligendi vero odit, doloremque rerum ex molestiae
+            quo dignissimos. Quia sunt accusamus itaque, suscipit, consequuntur,
+            ipsa asperiores sit saepe magni unde ratione nisi quaerat.
+          </p>
+          <a href="#" class="btn btn--green">Book Now</a>
+        </div>
+      </div>
+    </div>
     <!-- <section class="grid-test">
       <div class="row">
         <div class="col-1-of-2">col-1-of-2</div>
